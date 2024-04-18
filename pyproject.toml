@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poc-clientes"
+version = "0.1.0"
+description = ""
+authors = ["Wagner"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.7.0"
+sqlalchemy = "^2.0.29"
+psycopg2 = "^2.9.9"
+hana-ml = "^2.20.24031902"
+pyhdb = "^0.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

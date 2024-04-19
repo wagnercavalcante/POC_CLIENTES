@@ -12,6 +12,11 @@ sqlalchemy = "^2.0.29"
 psycopg2 = "^2.9.9"
 hana-ml = "^2.20.24031902"
 pyhdb = "^0.3.4"
+dbapi = "^0.0.14"
+duckdb = "^0.10.2"
+python-dotenv = "^1.0.1"
+hdbcli = "^2.20.15"
+sqlalchemy-hana = "^2.0.0"
 
 
 [build-system]
